@@ -1,0 +1,976 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"fi",
+				"fixed\tposition"
+			],
+			[
+				"IsC",
+				"IsComOwn\t(index.js)"
+			],
+			[
+				"plus",
+				"pluscomment"
+			],
+			[
+				"username",
+				"username"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Is",
+				"IsPersOwn\t(index.js)"
+			],
+			[
+				"fin",
+				"findById\t(app.js)"
+			],
+			[
+				"ba",
+				"background-color\t(main.css)"
+			],
+			[
+				"d",
+				"display\t(main.css)"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"anim",
+				"anime_list\t(anime.ejs)"
+			],
+			[
+				"anima",
+				"animation-duration\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"animation",
+				"animation-duration"
+			],
+			[
+				"tra",
+				"translate()\ttransform"
+			],
+			[
+				"animation-d",
+				"animation-duration\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"pass",
+				"passport"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-color\tproperty"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"bloc",
+				"block\tdisplay"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			],
+			[
+				"re",
+				"remove\t.remove()"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"findById",
+				"findByIdAndRemove"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"c",
+				"comment"
+			],
+			[
+				"Comm",
+				"Comment"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"com",
+				"comment\t(uniq.ejs)"
+			],
+			[
+				"tex",
+				"textarea\tTag"
+			],
+			[
+				"anime",
+				"anime_list"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"place",
+				"placeholder\tAttr"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"co",
+				"contents\tdisplay"
+			],
+			[
+				"padd",
+				"padding-bottom\t(home.css)"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"An",
+				"AnimeSchema"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"backg",
+				"background-position\tproperty"
+			],
+			[
+				"n",
+				"no-repeat\tbackground-repeat"
+			],
+			[
+				"backgr",
+				"background-repeat\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"cre",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"appe",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"removeC",
+				"removeChild\t( child: Node ): Node Node"
+			],
+			[
+				"queryS",
+				"querySelector\t( selectors: DOMString ): Element (Selectors) Element"
+			],
+			[
+				"getby",
+				"getElementById〔function〕"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"loca",
+				"location\t: Location Window"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"bod",
+				"body-parser\t(package-lock.json)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/app.js",
+			"settings":
+			{
+				"buffer_size": 5043,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/anime.ejs",
+			"settings":
+			{
+				"buffer_size": 887,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 4039,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/uniq.ejs",
+			"settings":
+			{
+				"buffer_size": 2228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fade.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/home.ejs",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/middleware/index.js",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/partials/header.ejs",
+			"settings":
+			{
+				"buffer_size": 6399,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Peace DOS/MVS/Learning/Tupo info/models/Anime.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Set Syntax: Git Config"
+			],
+			[
+				"git ",
+				"Set Syntax: Git Link"
+			],
+			[
+				"bow",
+				"Bower: Install"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"npm ",
+				"npm: Install Package"
+			],
+			[
+				"bowe",
+				"Bower: Configure project"
+			],
+			[
+				"np",
+				"npm: Install Package"
+			],
+			[
+				"pacc",
+				"Package Control: Install Package"
+			],
+			[
+				"bower",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: dl - Placeholder"
+			],
+			[
+				"Package Conin",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 165.0,
+		"history":
+		[
+			"bower init",
+			"npm install ejs",
+			"ls",
+			"npm init"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Peace DOS/MVS/Learning/Tupo info",
+		"/D/Peace DOS/MVS/Learning/Tupo info/node_modules",
+		"/D/Peace DOS/MVS/Learning/Tupo info/public"
+	],
+	"file_history":
+	[
+		"/D/Peace DOS/MVS/Learning/Tupo info/public/stylesheets/.bowerrc",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/uniq.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/public/stylesheets/main.css",
+		"/D/Peace DOS/MVS/Learning/Tupo info/bower.json",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/anime.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/sun.css",
+		"/D/Peace DOS/MVS/Learning/Tupo info/node_modules/mquery/lib/mquery.js",
+		"/D/Peace DOS/MVS/Learning/Tupo info/public/stylesheets/home.css",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/partials/header.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/app.js",
+		"/D/Peace DOS/MVS/Learning/Tupo info/models/comment.js",
+		"/D/Peace DOS/MVS/Learning/Tupo info/models/Anime.js",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/partials/footer.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/edit.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/new.ejs",
+		"/D/Peace DOS/MVS/Learning/Tupo info/views/home.ejs",
+		"/D/Peace DOS/MVS/Learning/cat.css",
+		"/D/Peace DOS/MVS/Learning/Anime/app.js",
+		"/D/Peace DOS/MVS/Learning/Tupo info/package-lock.json",
+		"/D/Peace DOS/MVS/Learning/ToDo/cat.js",
+		"/D/Peace DOS/MVS/Learning/Anime/views/footer.ejs",
+		"/D/Peace DOS/MVS/Learning/Anime/views/header.ejs",
+		"/D/Peace DOS/MVS/Learning/Anime/package-lock.json",
+		"/D/Peace DOS/MVS/Learning/Anime/home.ejs",
+		"/C/Users/alexd.DESKTOP-G7JSUDU/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/alexd.DESKTOP-G7JSUDU/AppData/Roaming/Sublime Text 3/Packages/User/MongoDB.sublime-build",
+		"/D/Peace DOS/MVS/Learning/rgb.html",
+		"/C/Users/alexd.DESKTOP-G7JSUDU/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/alexd.DESKTOP-G7JSUDU/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    \t\t<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/anime.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								853
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1535,
+								1535
+							]
+						],
+						"settings":
+						{
+							"SL.53.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix.tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/Anime/uniq.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1851,
+								1851
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "fade.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/home.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/middleware/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								301
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/views/partials/header.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6389,
+								6389
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/Peace DOS/MVS/Learning/Tupo info/models/Anime.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 132.0
+	},
+	"output.textarea":
+	{
+		"height": 139.0
+	},
+	"pinned_build_system": "",
+	"project": "anime.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<div class="container">
+	<div class="jumbotron">
+	  <h1 class="display-4">Anime_List</h1>
+	  <p class="lead">Choose you character or add new if you didn't found one</p>
+	  <hr class="my-4">
+	  <a class="btn btn-primary btn-lg" href="/anime_list/new" role="button">Add new character</a>
+	</div>
+	<div class="row text-center justify-content-around">
+	<% pers.forEach((hero) => { %>
+		<div class="col-md-4 col-sm-6">
+			<div class="card">
+		  		<a href="/anime_list/<%= hero._id %>"><img class="card-img-top" src="<%= hero.img %>" alt="Card image cap"></a>
+		  		<div class="card-body">
+		    		<h4 class="card-title"><%= hero.name %></h4>
+		    		<p class="card-text"><%= hero.content.substring(0,100) %>...</p>
+		  		</div>
+			</div>
+		</div>
+	<% }); %>
+	</div>
+</div>
+
+<% include ../partials/footer %>

@@ -1,0 +1,44 @@
+<% include ../partials/header %>
+
+<div class="container text-center" style="margin-top: 200px;">
+	<h1 style="position: relative; top: -50px;">Add new character</h1>
+	<form action="/anime_list" method="POST">
+		<div class="form-group row">
+    		<label for="inputname" class="col-sm-2 col-form-label" style="font-size: 1.5em;">Name</label>
+    		<div class="col-sm-10">
+      			<input type="text" class="form-control" name="name" id="inputname" placeholder="Enter name">
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<label for="inputanime" class="col-sm-2 col-form-label" style="font-size: 1.5em;">Anime</label>
+    		<div class="col-sm-10">
+      			<input type="text" class="form-control" name="anime" id="inputanime" placeholder="Enter anime">
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<label for="inputvimg" class="col-sm-2 col-form-label" style="font-size: 1.5em;">V Img</label>
+    		<div class="col-sm-10">
+      			<input type="text" class="form-control" name="vimg" id="inputvimg" placeholder="Enter img which will be on info page">
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<label for="inputhimg" class="col-sm-2 col-form-label" style="font-size: 1.5em;">H Img</label>
+    		<div class="col-sm-10">
+      			<input type="text" class="form-control" name="img" id="inputhimg" placeholder="Enter img which will be on anime page">
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<label for="inputcontent" class="col-sm-2 col-form-label" style="font-size: 1.5em;">Content</label>
+    		<div class="col-sm-10">
+      			<textarea id="inputcontent" class="form-control" name="content" placeholder="Enter description"></textarea>
+    		</div>
+  		</div>
+  		<div class="form-group row">
+    		<div class="col-sm-10">
+      			<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    		</div>
+  		</div>
+	</form>
+</div>
+
+<% include ../partials/footer %>

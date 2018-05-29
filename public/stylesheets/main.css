@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(http://www.fabiovisentin.com/photography/photo/25/sky-wallpaper-02923.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Titan One', cursive;
+}
+
+
+
+.alert{
+    margin: 1% auto;
+    position: relative;
+    left: -15px;
+    width: 59.4vw;
+}
+
+/*List*/
+
+div.jumbotron{
+	margin-top: 10px;
+	background-image: url(http://sfwallpaper.com/images/beautiful-anime-wallpaper-16.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+div.jumbotron h1{
+    animation-name: list;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+@keyframes list{
+    0%{
+        color: black;
+    }
+    50%{
+        color: blue; 
+        transform: scale(1.01);
+    }
+    100%{
+        color: black;
+    }
+
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card-body{
+    background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(right, #EAECC6, #2BC0E4);
+background: -o-linear-gradient(right, #EAECC6, #2BC0E4);
+background: linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-img-top{
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.2s;
+
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+/*Uniq*/
+
+.mainimage .col-md-4{
+ margin-bottom: 30px;
+}
+
+.mainimage .col-md-4 img{
+    padding: 20px auto;
+    width: 90%;
+    height: 700px;
+}
+
+.mainimage .col-md-4 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn{
+	font-weight: 100;
+	border-radius: 20px;
+}
+
+
+.display-1{
+	text-align: center;
+}
+
+.comments{
+	margin: 4% auto;
+    width: 30vw;
+
+}
+
+textarea{
+    overflow: auto;
+    width: 80%;
+
+}
+
+
+.onecom{
+    padding: 2%;
+    margin: 0 auto 1%;
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: #F6F5DD;
+    
+}
+
+.onecom h3{
+    align-self: flex-start;
+    margin-left: 3%;
+    flex-grow: 1;
+}
+
+.onecom form{
+    align-self: flex-end;
+    flex-grow: 1;
+    margin-right: 5%;
+}
+
+.onecom p{
+    flex-grow: 3;
+}
+
+.cont{
+    margin: 2% auto;
+}
+
+@media (max-width: 800px){
+    textarea{
+        width: 100%
+    }
+
+    .onecom{
+        font-size: 0.8em;
+    }
+    .onecom h3{
+        font-size: 1.5em;
+        align-self: center;
+        margin: 0;
+    }
+    .onecom form{
+        align-self: center;
+        margin: 0;
+    }
+}
+
+
+/*Login*/
+
+.modal-dialog {
+    width: 350px;
+    margin-top: 20%;
+}
+
+#login input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+

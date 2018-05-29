@@ -1,0 +1,66 @@
+<% include ../partials/header %>
+
+<div class="container cont" style="background-image: url(https://www.photohdx.com/images/2017/04/clean-white-paper-background-texture.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+	<div class="row">
+		<div class="col">
+			<h1 class="display-1"><%= pers.name %></h1>
+		</div>	
+	</div>
+	<div class="row justify-content-around mainimage">
+		<div class="col-md-4">
+			<img src="<%= pers.vimg %>" alt="placeholder+image">
+			<div class="content">
+				<form action="/anime_list/<%= pers._id %>/edit" method="GET">
+					<button class="btn btn-success btn-lg circle">Edit</button>
+				</form>
+				<form method="POST" action="/anime_list/<%= pers._id %>?_method=DELETE">
+					<button class="btn btn-danger btn-lg circle">Delete</button>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<p><%= pers.content %></p>
+			<p class="text-right"><em>Created by <strong><%= pers.author.username %></strong></em></p>
+		</div>
+	</div>
+	<hr>
+	<div class="container comments ">
+		<% pers.comments.forEach((comment) =>{ %>
+		<div class="row text-black singlecom">
+			<div class=" onecom">
+				<h3><%= comment.author.username %></h3>
+				<p class="text-center"><em><%= comment.text %></em></p>
+				<form action="/anime_list/<%= pers._id %>/comment/<%= comment._id %>?_method=DELETE" method="POST">
+					<div class="form-group row">
+						<button class="btn btn-danger btn-sm circle">Delete</button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+		<% }) %>
+		<hr>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<h2>Add new comment</h2>
+					<form action="/anime_list/<%= pers._id %>/comment" method="POST">
+						<hr>
+						<div class="form-group row">
+							<div class="col-sm-12">
+								<textarea rows="4"  placeholder="Add new comment" name="comments[text]"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-sm-12">
+								<button type="Submit" class="btn btn-primary btn-lg circle">Add</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div> 
+		</div>
+	</div>
+</div>
+
+<% include ../partials/footer %>
