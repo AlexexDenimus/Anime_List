@@ -4,10 +4,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 .center{
-	/*margin-top: 375px;*/
 	padding-top: 15vh;
 	text-align: center;
      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -25,14 +25,13 @@ body {
 }
 
 .center p{
-	padding-bottom: 393px;
+	padding-bottom: 20%;
 	color: #fff;
 	
 }
 
 .btn-warning{
 	letter-spacing: 1px;
-	padding: 5px -80px 5px -80px;
 	border-radius: 20px;
 	box-shadow: 0 6px #D5B205;
 	margin-top: 50px;
