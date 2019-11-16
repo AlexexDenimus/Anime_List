@@ -80,7 +80,6 @@ app.post("/anime_list", middleware.IsLoggin, function(req, res){
 			res.render("back");
 		}
 		else {
-			console.log(pers);
 			req.flash("success", "Character was successfuly created!");
 			res.redirect("anime_list");
 		}
